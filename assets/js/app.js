@@ -127,7 +127,7 @@ function makeResponsive() {
         .offset([80, -60])
         .html(function(data) {
         if (chosenXAxis === "income"){
-            return (`<b>State: ${data.state} (${data.abbr})</b><br><strong>${chosenXAxis} (median): $${data[chosenXAxis]}</strong><br><strong>${chosenYAxis}: ${data[chosenYAxis]}%</strong>`); 
+            return (`<b>State: ${data.state} (${data.abbr})</b><br><b>${chosenXAxis} (median)</b>: $${data[chosenXAxis]}<br><b>${chosenYAxis}</b>: ${data[chosenYAxis]}%`); 
         
         } else if (chosenXAxis === "age"){
             return (`<strong>State: ${data.state} (${data.abbr})</strong><br><strong>${chosenXAxis} (median): ${data[chosenXAxis]} yrs</strong><br><strong>${chosenYAxis}: ${data[chosenYAxis]}%</strong>`); 

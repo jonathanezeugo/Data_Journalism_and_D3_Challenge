@@ -11,7 +11,7 @@ The editor wants to run a series of feature stories about the health risks facin
 
 The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/). The current data set includes data on rates of income, obesity, poverty, etc. by each US State. MOE stands for "margin of error."
 
-The finalized app has been deployed to github page. Click [here](https://jonathanezeugo.github.io/D3-Challenge/index.html) to view the rendered page.
+The finalized app has been deployed to github page. Click [here](https://jonathanezeugo.github.io/index.html) to view the rendered page.
 
 
 ### The mission: D3 Dabbler 
@@ -39,7 +39,7 @@ This bonus section included more demographics and more risk factors. Additional 
 
 ![4-scatter_c](Images/4-scatter_c.JPG)
 
-* Also all of the CSV data were bound to eacg circle, allowing for easily determining each x or y values when each label is clicked.
+* Also all of the CSV data were bound to each circle, allowing for easily determining each x or y values when each label is clicked.
 
 #### 2. Incorporating d3-tip
 
