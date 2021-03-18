@@ -11,7 +11,7 @@ The editor wants to run a series of feature stories about the health risks facin
 
 The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/). The current data set includes data on rates of income, obesity, poverty, etc. by each US State. MOE stands for "margin of error."
 
-The finalized app has been deployed to github page. Click [here](https://jonathanezeugo.github.io/D3-Challenge/StarterCode/index.html) to or [here]('./index.html') view the rendered page.
+The finalized app has been deployed to github page. Click [here](https://jonathanezeugo.github.io/D3-Challenge/StarterCode/index.html) view the rendered page.
 
 
 ### The mission: D3 Dabbler 
