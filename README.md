@@ -16,7 +16,7 @@ The finalized app has been deployed to github page. Click [here](https://jonatha
 
 ### The mission: D3 Dabbler 
 
-![4-scatter_b](Images/4-scatter_b.jpg)
+![4-scatter_b](Images/4-scatter_b.JPG)
 
 A scatter plot was created between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`. This scatter plot was created to represent each state with circle elements. A VS script was used to code this graphic in the `app.js` file and the data from `data.csv` was imported by using the `d3.csv` function. The scatter plot ultimately appeared like the image at the top of this section.
 
