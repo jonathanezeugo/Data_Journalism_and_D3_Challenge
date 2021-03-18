@@ -31,7 +31,7 @@ A scatter plot was created between two of the data variables such as `Healthcare
 
 Why make a static graphic when D3 lets you interact with your data?
 
-![7-animated-scatter](Images/7-animated-scatter.gif)
+![8-tooltip](Images/9-tooltip.gif)
 
 #### 1. More Data, More Dynamics
 
@@ -43,7 +43,7 @@ This bonus section included more demographics and more risk factors. Additional 
 
 While the ticks on the axes allowed for inference of approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. When each State bubble or circle in the chart is hovered over, it displays each tooltip with the data that has been selected. Notice also each circle changes from green to red to allow for better identification of the selected State. `d3-tip.js` plugin developed by [Justin Palmer](https://github.com/Caged) was used to make this process possible. All this put together, let the data tell the story...
 
-![8-tooltip](Images/9-tooltip.gif)
+<!-- ![8-tooltip](Images/9-tooltip.gif) -->
 
 Here's what our chart looks like:
 
