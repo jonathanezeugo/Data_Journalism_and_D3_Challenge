@@ -35,14 +35,16 @@ Why make a static graphic when D3 lets you interact with your data?
 
 #### 1. More Data, More Dynamics
 
-This bonus section included more demographics and more risk factors. Additional labels were placed in the scatter plot and given click events so that users can decide which data to display. The transitions were animated for circles' locations as well as the range of the axes. There are three risk factors for each axis. Here's what our chart looks like:
-
-![4-scatter_c](Images/4-scatter_c.JPG)
+This bonus section included more demographics and more risk factors. Additional labels were placed in the scatter plot and given click events so that users can decide which data to display. The transitions were animated for circles' locations as well as the range of the axes. There are three risk factors for each axis. 
 
 * Also all of the CSV data were bound to each circle, allowing for easily determining each x or y values when each label is clicked.
 
 #### 2. Incorporating d3-tip
 
-While the ticks on the axes allowed for inference of approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Add tooltips to your circles and display each tooltip with the data that the user has selected. Use the `d3-tip.js` plugin developed by [Justin Palmer](https://github.com/Caged)—we've already included this plugin in your assignment directory.
+While the ticks on the axes allowed for inference of approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. When each State bubble or circle in the chart is hovered over, it displays each tooltip with the data that has been selected. Notice also each circle changes from green to red to allow for better identification of the selected State. `d3-tip.js` plugin developed by [Justin Palmer](https://github.com/Caged) was used to make this process possible. All this put together, let the data tell the story...
 
 ![8-tooltip](Images/8-tooltip.gif)
+
+Here's what our chart looks like:
+
+![4-scatter_c](Images/4-scatter_c.JPG)
