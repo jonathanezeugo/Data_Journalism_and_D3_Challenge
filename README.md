@@ -7,7 +7,7 @@
 
 Welcome to the newsroom! Having accepted a data visualization position for a major metro paper, the mission is analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand significant findings.
 
-The editor wants to run a series of feature stories about the health risks facing particular demographics. Counting on this data analytics team, the editor desires the team to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
+The editor wants to run a series of feature stories about the health risks facing particular demographics. Counting on my data analytic skills, the editor has tasked me with sniffing out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
 
 The data set included with the assignment is based on 2014 ACS 1-year estimates from the [US Census Bureau](https://data.census.gov/cedsci/). The current data set includes data on rates of income, obesity, poverty, etc. by each US State. MOE stands for "margin of error."
 
@@ -24,8 +24,6 @@ A scatter plot was created between two of the data variables such as `Healthcare
 * This included State abbreviations in the circles.
 
 * Created and situated chart axes and labels to the left and bottom of the chart respectively.
-
-* The finalized app has been deployed to github page. Click [here](https://jonathanezeugo.github.io/D3-Challenge/index.html) to view the rendered page.
 
 ### Bonus: Creating the interactive scatter plot
 
